@@ -1,0 +1,17 @@
+Andrew karpathy:
+ - MicroGrad:   -Autograd(Automatic Gradient) engine implements back propagation.
+	  	-Backpropagation go backward and do recursively update weights and bias.
+		-(.gard) gives the derivative 
+		-Backpropagation is an general thing, which does not care about the network and parameters.
+		- micrograd(Files) - 1.engine - doesn't know anything about neural network.
+			      2.nn - Neural network
+		- derivative - rate of change of x with respective to y(slope)
+			if h = 0.001
+			   x = 3.0 , now f(x+h) will be higher than f(x)
+		- Tanh - Tanh(x) = (e^x - e^-x)/(e^x + e^-x)
+		       - It is centered around zero, it is the stretched version of the sigmoid. 
+		       - The output range of the tanh is (-1,1)
+		       - d/dx (tanhx) = 1- tanh^2x = sech^2x
+
+		- Topological sort:
+			- 
